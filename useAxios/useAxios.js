@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { useEffect, useState } from "react";
 
-export const useAxios = (options, axiosInstances = Axios) => {
+const useAxios = (options, axiosInstances = Axios) => {
   const [state, setState] = useState({
     loading: true,
     data: null,
@@ -28,3 +28,5 @@ export const useAxios = (options, axiosInstances = Axios) => {
   };
   return { ...state, refetch };
 };
+
+export default useAxios;

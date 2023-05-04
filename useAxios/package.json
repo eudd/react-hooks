@@ -1,0 +1,24 @@
+{
+  "name": "@r-hooks/use-axios",
+  "version": "1.0.5",
+  "description": "react hook for using axios.",
+  "main": "useAxios.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eudd/react-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "axios"
+  ],
+  "author": "kimeudd <kimeudd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eudd/react-hooks/issues"
+  },
+  "homepage": "https://github.com/eudd/react-hooks",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
