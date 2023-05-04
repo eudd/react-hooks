@@ -1,6 +1,6 @@
 {
   "name": "@r-hooks/use-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react hook for using input.",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/eudd/react-hooks/issues"
   },
-  "homepage": "https://github.com/eudd/react-hooks",
+  "homepage": "https://github.com/eudd/react-hooks/tree/main/useInput",
   "peerDependencies": {
     "react": "^18.2.0"
   }

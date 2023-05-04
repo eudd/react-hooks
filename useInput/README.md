@@ -18,7 +18,7 @@ npm install @r-hooks/use-input
 import useInput from "@r-hooks/use-input";
 
 function App() {
-    const input = useAxios("hello world");
+    const input = useInput("hello world");
     return (
         <div>
             <h1>UseInput</h1>

@@ -1,6 +1,6 @@
 {
   "name": "@r-hooks/use-axios",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react hook for using axios.",
   "main": "useAxios.js",
   "repository": {
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/eudd/react-hooks/issues"
   },
-  "homepage": "https://github.com/eudd/react-hooks",
+  "homepage": "https://github.com/eudd/react-hooks/tree/main/useAxios",
   "peerDependencies": {
     "react": "^18.2.0"
   }
