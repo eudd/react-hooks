@@ -21,15 +21,22 @@ import useAxios from "@r-hooks/use-axios";
 
 function App() {
     const options = {
-        url:"/api/getlist"
+        url:"/api/get/1"
     }
     const { loading, data, error, refetch } = useAxios(options);
+    const hanlerWithAnotherOption = ()=>{
+        const option = {
+            url:"/api/get/2"
+        }
+        refetch(option);
+    }
     return (
         <div>
             <h1>UseAxios</h1>
             <h2>{data?.status}</h2>
             <h3>{loading && "Loading..."}</h3>
-            <button onClick={refetch}>refetch</button>
+            <button onClick={refetch}>refetch with same option</button>
+            <button onClick={hanlerWithAnotherOption}>refetch with another option</button>
         </div>
     );
 }

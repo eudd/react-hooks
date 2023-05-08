@@ -20,7 +20,7 @@ const useAxios = (options, axiosInstances = Axios) => {
     call();
   }, [trigger]);
   const refetch = (options) => {
-    if(options){
+    if(options && options.url){
       if(typeof(options)!=='object'){
         throw new Error("options has to be json type");
       }

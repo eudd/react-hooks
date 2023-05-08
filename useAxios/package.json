@@ -1,6 +1,6 @@
 {
   "name": "@r-hooks/use-axios",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "react hook for using axios.",
   "main": "useAxios.js",
   "repository": {
