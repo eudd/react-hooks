@@ -5,6 +5,7 @@ react hook for using axios.
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [My Other hooks](#Hooklist)
  
 
 ## Installation
@@ -12,7 +13,6 @@ react hook for using axios.
 ```bash
 npm install @r-hooks/use-axios
 ```
-
 
 ## Usage
 ### `useAxios(options[, axiosinstance])`
@@ -40,7 +40,10 @@ function App() {
         </div>
     );
 }
-```
+
+## Hooklist
+* [use-axios](https://www.npmjs.com/package/@r-hooks/use-axios, "use-axios")
+* [use-input](https://www.npmjs.com/package/@r-hooks/use-input, "use-input")
 
 [npm-url]: https://npmjs.org/package/@r-hooks/use-axios
 [npm-version-image]: https://img.shields.io/npm/v/@r-hooks/use-axios.svg
