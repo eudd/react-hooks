@@ -1,8 +1,8 @@
 {
   "name": "@r-hooks/use-input",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "react hook for using input.",
-  "main": "index.js",
+  "main": "useInput.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eudd/react-hooks.git"
